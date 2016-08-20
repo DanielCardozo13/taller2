@@ -1,0 +1,135 @@
+<!--indica al navegador que el documento es html:5-->
+<!DOCTYPE html>
+<html lang="es"> <!--  indica al navegador el idioma del sitio del documento-->
+<head>
+	<!--cabecera del sitio-->
+	<meta charset="UTF-8">
+	<!--titulo de la pagina-->
+	<title>Tabla con imagenes</title>
+
+	<!-- se incluye bootstrap -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- se incluye los iconos de font awesome -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- uikit -->
+    <link rel="stylesheet" href="css/uikit.almost-flat.min.css" media="all">
+
+    <!-- flag icons -->
+    <link rel="stylesheet" href="css/flags.min.css" media="all">
+
+    <!-- altair admin -->
+    <link rel="stylesheet" href="css/main.min.css" media="all">
+</head>
+<body><!--cuerpo de documento-->
+
+	<div class="uk-grid" >
+		<div class="uk-width-medium"></div><!-- div vacio para dar centro al proximo div -->
+	    <div class="uk-width-medium"><!-- inicio div que contiene la carta -->
+			<div class="md-card"><!-- inicio carta -->
+			    <div class="md-card-toolbar"><!-- barra de herramientas de la carta -->
+				    <div ><!-- div contenedor del titulo -->
+				        <h1 ><!-- titulo de la carta -->
+				            TABLA CON AUDIO Y VIDEO
+				        </h1><!-- fin titulo -->
+				    </div><!-- fin div que contiene el titulo -->
+			    </div><!-- fin div toolbar -->
+				<div class="md-card-content"><!-- inicio div con el contenido de la carta -->
+			            <div class="md-card uk-margin-medium-bottom">
+			                <div class="md-card-content">
+			                    <div class="uk-overflow-container">
+			                        <table class="uk-table uk-table-striped">
+			                            <thead>
+			                            <tr>
+			                                <th>ARTISTA</th>
+			                                <th>IMAGEN</th>
+			                                <th>LISTA MUSICAL</th>
+			                                <th>VIDEO</th>
+			                            </tr>
+			                            </thead>
+			                            <tbody>
+			                            <tr align="center">
+			                                <td> <h3>Ñejo flow </h3></td>
+			                                <td><br>
+			                                	<img src="imagenes/ñejo.jpg" >
+			                                </td>
+			                                <td>
+			                                	Misterio
+			                                	<audio controls>
+			                                	  <source src="imagenes/Nejo_Misterio.mp3" type="audio/mp3">
+			                                	</audio>
+			                                	<br>
+			                                	Disruta la vida
+			                                	<audio controls>
+			                                	  <source src="imagenes/Ñejo_Disfruta_la_vida.mp3" type="audio/mp3">
+			                                	</audio>
+			                                	<br>
+			                                	Vacilar contigo
+			                                	<audio controls>
+			                                	  <source src="imagenes/Nejo_Vacilar_Contigo.mp3" type="audio/mp3">
+			                                	</audio>
+			                                </td>
+			                                <td>
+			                                	<video width="300" height="200" controls preload>
+			                                	  <source src="imagenes/Ñejo_misterio_video.mp4" type="audio/mp4">
+			                                	</video>
+			                                </td>
+			                            </tr>
+			                            <tr align="center">
+			                                <td> <h2>Rawayana </h2></td>
+			                                <td>
+			                                	<img src="imagenes/rawayana.jpg" >
+			                                </td>
+			                                <td>
+			                                	Sin Dormir
+			                                	<audio controls>
+			                                	  <source src="imagenes/Rawayana_Sin Dormir.mp3" type="audio/mp3">
+			                                	</audio>
+			                                	<br>
+		                                		No significa
+			                                	<audio controls>
+			                                	  <source src="imagenes/No_significa_Rawayana.mp3" type="audio/mp3">
+			                                	</audio>
+			                                	<br>
+			                                	Falta poco
+			                                	<audio controls>
+			                                	  <source src="imagenes/Rawayana_Falta_Poco.mp3" type="audio/mp3">
+			                                	</audio>
+			                                </td>
+			                                <td>
+		                                		<video width="300" height="200" controls preload>
+			                                	  <source src="imagenes/Rawayana_Sin Dormir_Video.mp4" type="audio/mp4" >
+			                                	</video>
+			                                </td>
+			                            </tr>
+			                            </tbody>
+			                        </table>
+			                    </div>
+			                </div>
+			            </div>
+					<div class="uk-grid">
+						<div class="uk-width-medium-1-4"></div>
+						<button><a href="tabla_con_imagenes.html">Tabla con imágenes</a></button><!-- boton  con vinculo a tabla con imágenes -->
+						<button><a href="tabla_con_compartimiento.html">Tabla con compartimiento</a></button><!-- boton  con vinculo a tabla con audio y video -->
+						
+					</div>
+				</div>
+			</div><!-- fin contenedor de carta -->
+		</div>
+	</div>
+	
+
+</body>
+</html>
+	<!-- Jquery -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- common functions -->
+    <script src="js/common.min.js"></script>
+    <!-- uikit functions -->
+    <script src="js/uikit_custom.min.js"></script>
+    <!-- altair common functions/helpers -->
+    <script src="js/altair_admin_common.min.js"></script>
